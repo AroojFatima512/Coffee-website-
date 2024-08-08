@@ -1,0 +1,152 @@
+.arrows,
+.login,
+.mid,
+.arrow1 {
+    display: none;
+}
+
+.text-box {
+    height: 66vh;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.text {
+    padding: 10px;
+    margin-left: 0px
+}
+
+.about,
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about {
+    margin-top: 200px;
+}
+
+#about {
+    font-size: 30px;
+}
+
+.about h3 {
+    font-size: 25px;
+    padding: 2px 0px;
+}
+
+.btn {
+    margin: 10px 0px;
+}
+
+.move {
+    margin-left: 30px;
+}
+
+.box {
+    width: 40vw;
+    height: 500px;
+}
+
+.box img {
+    width: 40vw;
+    height: 320px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+form input,
+form textarea {
+    width: 90vw;
+}
+
+@media screen and (max-width: 760px) {
+    .button {
+        padding: 15px 35px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .items,
+    .login {
+        font-size: 15px;
+    }
+
+
+    .about-text {
+        width: 97vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .about-img {
+        margin-top: 30px;
+        width: 80vw;
+        height: 50vw;
+    }
+
+    .box,
+    .box img {
+        width: 90vw;
+    }
+
+    .blog {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .child,
+    .child img {
+        width: 85vw;
+    }
+
+    .customers {
+        font-size: 28px;
+        margin: 30px;
+    }
+
+    .testimonials {
+        justify-content: center;
+    }
+
+    .clients {
+        width: 80vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .clients img {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .client-text {
+        width: 88vw;
+        margin: 30px 0px;
+    }
+
+    .move {
+        display: none;
+    }
+
+    #Email {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .customers {
+        margin: 20px 10px;
+    }
+
+    .icon {
+        margin: 0px 2px;
+    }
+}
