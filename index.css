@@ -48,10 +48,6 @@
     align-items: center;
 }
 
-.login i:hover,
-.login div:hover {
-    color: #f01c1c;
-}
 
 .login i {
     padding: 0px 15px;
@@ -424,4 +420,12 @@ footer {
 .copyright {
     margin-top: 60px;
     text-align: center;
+}
+
+.login i:hover,
+.login div:hover,
+.social a:hover,
+.icon i:hover,
+.icon div:hover {
+    color: #f01c1c;
 }
