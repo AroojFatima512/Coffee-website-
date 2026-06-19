@@ -8,12 +8,17 @@
 .text-box {
     height: 66vh;
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .text {
     padding: 10px;
-    margin-left: 0px
+    margin-left: 0px;
+    text-align: center;
+}
+
+.coffee {
+    width: 100%;
 }
 
 .about,
@@ -78,6 +83,14 @@ form textarea {
         font-size: 15px;
     }
 
+    .logo {
+        font-size: 35px;
+    }
+
+    .coffee {
+        font-size: 46px;
+    }
+
 
     .about-text {
         width: 97vw;
@@ -133,11 +146,20 @@ form textarea {
     }
 
     .move {
-        display: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
 
     #Email {
-        width: 80vw;
+        width: 60vw;
     }
 }
 

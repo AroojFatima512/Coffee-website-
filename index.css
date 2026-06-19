@@ -8,10 +8,17 @@
     line-height: normal;
 }
 
-.img {
+body {
+    overflow-x: hidden;
+}
+
+.header_section {
     width: 100vw;
-    height: 100vh;
-    position: absolute;
+    min-height: 100vh;
+    background-image: url('./images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .nav {
@@ -67,6 +74,18 @@
 .text {
     position: relative;
     margin-left: 100px;
+    animation: slideFromLeft 1.2s ease-out forwards;
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .coffee {
